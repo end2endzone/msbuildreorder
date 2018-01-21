@@ -1,7 +1,14 @@
 /msvc/Debug
 /msvc/Release
+/msvc/Win32
+/msvc/msbuildreorder_unittest
+/msvc/ipch
 /msvc/*.ncb
 /msvc/*.suo
 /msvc/*.user
 /msvc/*.sdf
 /third_party/googletest
+/msvc/test_files
+/msvc/*.opensdf
+/msvc/msbuildreorderTest.x86.release.xml
+/msvc/msbuildreorderTest.x86.debug.xml
