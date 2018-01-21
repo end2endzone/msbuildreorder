@@ -4,3 +4,4 @@
 /msvc/*.suo
 /msvc/*.user
 /msvc/*.sdf
+/third_party/googletest
