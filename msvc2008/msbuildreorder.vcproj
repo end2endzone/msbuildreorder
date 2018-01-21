@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="9,00"
+	Version="9.00"
 	Name="MSBuildReorder"
 	ProjectGUID="{F014F42C-5B28-4F29-B962-26B93C156668}"
 	RootNamespace="msbuildreorder"
@@ -171,11 +171,11 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\BuildLogManager.cpp"
+				RelativePath="..\src\BuildLogManager.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\main.cpp"
+				RelativePath="..\src\main.cpp"
 				>
 			</File>
 		</Filter>
@@ -185,11 +185,11 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
-				RelativePath=".\BuildLogManager.h"
+				RelativePath="..\src\BuildLogManager.h"
 				>
 			</File>
 			<File
-				RelativePath=".\targetver.h"
+				RelativePath="..\src\targetver.h"
 				>
 			</File>
 		</Filter>

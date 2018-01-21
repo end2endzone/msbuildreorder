@@ -1,0 +1,5 @@
+/msvc2008/Debug
+/msvc2008/Release
+/msvc2008/*.ncb
+/msvc2008/*.suo
+/msvc2008/*.user
