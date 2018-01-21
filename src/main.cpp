@@ -6,8 +6,9 @@
 #include "BuildLogManager.h"
 
 #include <stdio.h>
-//#include <tchar.h>
 #include <string>
+
+#include "..\version_info.h"
 
 bool fileExist(const char * iFilePath)
 {
@@ -22,7 +23,7 @@ bool fileExist(const char * iFilePath)
 
 void printHeader()
 {
-  printf("msbuildreorder v1.0\n");
+  printf("msbuildreorder v%s\n", MSBUILDREORDER_VERSION);
 }
 
 void printUsage()
