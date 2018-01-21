@@ -3,3 +3,4 @@
 /msvc/*.ncb
 /msvc/*.suo
 /msvc/*.user
+/msvc/*.sdf

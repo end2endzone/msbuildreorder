@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual C++ Express 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MSBuildReorder", "msbuildreorder.vcproj", "{F014F42C-5B28-4F29-B962-26B93C156668}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "msbuildreorder", "msbuildreorder.vcxproj", "{F014F42C-5B28-4F29-B962-26B93C156668}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
