@@ -1,0 +1,115 @@
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Rebuild All started: Project: msbuildreorder4, Configuration: Debug Win32 ------
+2>------ Rebuild All started: Project: msbuildreorder7, Configuration: Debug Win32 ------
+3>------ Rebuild All started: Project: msbuildreorder8, Configuration: Debug Win32 ------
+1>Deleting intermediate and output files for project 'msbuildreorder4', configuration 'Debug|Win32'
+2>Deleting intermediate and output files for project 'msbuildreorder7', configuration 'Debug|Win32'
+3>Deleting intermediate and output files for project 'msbuildreorder8', configuration 'Debug|Win32'
+4>------ Rebuild All started: Project: msbuildreorder9, Configuration: Debug Win32 ------
+5>------ Rebuild All started: Project: msbuildreorder3, Configuration: Debug Win32 ------
+6>------ Rebuild All started: Project: msbuildreorder2, Configuration: Debug Win32 ------
+5>Deleting intermediate and output files for project 'msbuildreorder3', configuration 'Debug|Win32'
+4>Deleting intermediate and output files for project 'msbuildreorder9', configuration 'Debug|Win32'
+6>Deleting intermediate and output files for project 'msbuildreorder2', configuration 'Debug|Win32'
+7>------ Rebuild All started: Project: msbuildreorder, Configuration: Debug Win32 ------
+7>Deleting intermediate and output files for project 'msbuildreorder', configuration 'Debug|Win32'
+3>msbuildreorder8 : error PRJ0008 : Could not delete file 'm:\Training\C++\new\msbuildreorder\msbuildreorder\Debug\vc90.idb'.
+3>Make sure that the file is not open by another process and is not write-protected.
+1>msbuildreorder4 : error PRJ0008 : Could not delete file 'm:\Training\C++\new\msbuildreorder\msbuildreorder\Debug\vc90.idb'.
+1>Make sure that the file is not open by another process and is not write-protected.
+1>msbuildreorder4 - 1 error(s), 0 warning(s)
+3>msbuildreorder8 - 1 error(s), 0 warning(s)
+8>------ Rebuild All started: Project: msbuildreorder5, Configuration: Debug Win32 ------
+8>Deleting intermediate and output files for project 'msbuildreorder5', configuration 'Debug|Win32'
+5>msbuildreorder3 : warning PRJ0009 : Build log could not be opened for writing.
+5>Make sure that the file is not open by another process and is not write-protected.
+2>msbuildreorder7 : warning PRJ0009 : Build log could not be opened for writing.
+2>Make sure that the file is not open by another process and is not write-protected.
+4>msbuildreorder9 : warning PRJ0009 : Build log could not be opened for writing.
+4>Make sure that the file is not open by another process and is not write-protected.
+7>msbuildreorder : warning PRJ0009 : Build log could not be opened for writing.
+7>Make sure that the file is not open by another process and is not write-protected.
+6>Compiling...
+4>Compiling...
+2>Compiling...
+5>Compiling...
+8>msbuildreorder5 : warning PRJ0009 : Build log could not be opened for writing.
+8>Make sure that the file is not open by another process and is not write-protected.
+6>cl : Command line error D8022 : cannot open 'm:\Training\C++\new\msbuildreorder\msbuildreorder\Debug\RSP000001109689416.rsp'
+7>Compiling...
+6>Could not delete temporary file. Make sure that you do not have it open and that the file is not protected.
+6>
+6>Build log was saved at "file://m:\Training\C++\new\msbuildreorder\msbuildreorder\Debug\BuildLog.htm"
+6>msbuildreorder2 - 1 error(s), 0 warning(s)
+2>BuildLogManager.cpp
+5>BuildLogManager.cpp
+4>BuildLogManager.cpp
+7>BuildLogManager.cpp
+5>m:\training\c++\new\msbuildreorder\msbuildreorder\buildlogmanager.cpp : fatal error C1033: cannot open program database 'm:\training\c++\new\msbuildreorder\msbuildreorder\debug\vc90.idb'
+2>m:\training\c++\new\msbuildreorder\msbuildreorder\buildlogmanager.cpp : fatal error C1033: cannot open program database 'm:\training\c++\new\msbuildreorder\msbuildreorder\debug\vc90.idb'
+5>main.cpp
+2>main.cpp
+4>m:\training\c++\new\msbuildreorder\msbuildreorder\buildlogmanager.cpp : fatal error C1033: cannot open program database 'm:\training\c++\new\msbuildreorder\msbuildreorder\debug\vc90.idb'
+4>main.cpp
+8>Compiling...
+8>BuildLogManager.cpp
+7>main.cpp
+4>Generating Code...
+5>Generating Code...
+5>m:\Training\C++\new\msbuildreorder\msbuildreorder\main.cpp : fatal error C1083: Cannot open compiler generated file: 'Debug\main.obj': Permission denied
+2>Generating Code...
+8>main.cpp
+2>m:\Training\C++\new\msbuildreorder\msbuildreorder\main.cpp : fatal error C1083: Cannot open compiler generated file: 'Debug\main.obj': Permission denied
+7>Generating Code...
+5>Could not delete temporary file. Make sure that you do not have it open and that the file is not protected.
+5>
+5>Build log was saved at "file://m:\Training\C++\new\msbuildreorder\msbuildreorder\Debug\BuildLog.htm"
+5>msbuildreorder3 - 2 error(s), 1 warning(s)
+4>Could not delete temporary file. Make sure that you do not have it open and that the file is not protected.
+4>
+4>Build log was saved at "file://m:\Training\C++\new\msbuildreorder\msbuildreorder\Debug\BuildLog.htm"
+4>msbuildreorder9 - 1 error(s), 1 warning(s)
+2>Could not delete temporary file. Make sure that you do not have it open and that the file is not protected.
+2>
+2>Build log was saved at "file://m:\Training\C++\new\msbuildreorder\msbuildreorder\Debug\BuildLog.htm"
+2>msbuildreorder7 - 2 error(s), 1 warning(s)
+8>Generating Code...
+7>Compiling manifest to resources...
+7>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+7>Copyright (C) Microsoft Corporation.  All rights reserved.
+7>Linking...
+8>Compiling manifest to resources...
+8>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+8>Copyright (C) Microsoft Corporation.  All rights reserved.
+8>Linking...
+7>LINK : M:\Training\C++\new\msbuildreorder\Debug\msbuildreorder.exe not found or not built by the last incremental link; performing full link
+7>Embedding manifest...
+8>Embedding manifest...
+7>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+7>Copyright (C) Microsoft Corporation.  All rights reserved.
+8>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+8>Copyright (C) Microsoft Corporation.  All rights reserved.
+7>Could not delete temporary file. Make sure that you do not have it open and that the file is not protected.
+7>
+8>Build log was saved at "file://m:\Training\C++\new\msbuildreorder\msbuildreorder\Debug\BuildLog.htm"
+8>msbuildreorder5 - 0 error(s), 1 warning(s)
+7>Build log was saved at "file://m:\Training\C++\new\msbuildreorder\msbuildreorder\Debug\BuildLog.htm"
+7>msbuildreorder - 0 error(s), 1 warning(s)
+9>------ Rebuild All started: Project: msbuildreorder6, Configuration: Debug Win32 ------
+9>Deleting intermediate and output files for project 'msbuildreorder6', configuration 'Debug|Win32'
+9>Compiling...
+9>BuildLogManager.cpp
+9>main.cpp
+9>Generating Code...
+9>Compiling manifest to resources...
+9>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+9>Copyright (C) Microsoft Corporation.  All rights reserved.
+9>Linking...
+9>Embedding manifest...
+9>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+9>Copyright (C) Microsoft Corporation.  All rights reserved.
+9>Build log was saved at "file://m:\Training\C++\new\msbuildreorder\msbuildreorder\Debug\BuildLog.htm"
+9>msbuildreorder6 - 0 error(s), 0 warning(s)
+========== Rebuild All: 3 succeeded, 6 failed, 0 skipped ==========
