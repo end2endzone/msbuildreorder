@@ -63,5 +63,52 @@ TEST_F(TestBuildLogManager, testLibprotobufLog)
   std::string errorMessage;
   bool fileEquals = hlp.isFileEquals(actualFilePath.c_str(), expectedFilePath.c_str(), errorMessage);
   ASSERT_TRUE(fileEquals) << errorMessage.c_str();
+}
 
+TEST_F(TestBuildLogManager, testBasicLog01)
+{
+  static const std::string expectedFilePath = getExpectedFilePath();
+  static const std::string inputFilePath    = getInputFilePath();
+  static const std::string actualFilePath   = getActualFilePath();
+
+  ASSERT_TRUE(hlp.fileExists(inputFilePath.c_str()));
+  ASSERT_TRUE(hlp.fileExists(expectedFilePath.c_str()));
+
+  BuildLogManager mgr;
+
+  StringList content; 
+  ASSERT_TRUE(mgr.loadBuildLog(inputFilePath.c_str(), content));
+  ASSERT_TRUE(mgr.reorderBuildLog(content));
+  ASSERT_TRUE(mgr.saveBuildLog(actualFilePath.c_str(), content));
+
+  ASSERT_TRUE(hlp.fileExists(actualFilePath.c_str()));
+
+  //assert files are equals
+  std::string errorMessage;
+  bool fileEquals = hlp.isFileEquals(actualFilePath.c_str(), expectedFilePath.c_str(), errorMessage);
+  ASSERT_TRUE(fileEquals) << errorMessage.c_str();
+}
+
+TEST_F(TestBuildLogManager, testBasicLog02)
+{
+  static const std::string expectedFilePath = getExpectedFilePath();
+  static const std::string inputFilePath    = getInputFilePath();
+  static const std::string actualFilePath   = getActualFilePath();
+
+  ASSERT_TRUE(hlp.fileExists(inputFilePath.c_str()));
+  ASSERT_TRUE(hlp.fileExists(expectedFilePath.c_str()));
+
+  BuildLogManager mgr;
+
+  StringList content; 
+  ASSERT_TRUE(mgr.loadBuildLog(inputFilePath.c_str(), content));
+  ASSERT_TRUE(mgr.reorderBuildLog(content));
+  ASSERT_TRUE(mgr.saveBuildLog(actualFilePath.c_str(), content));
+
+  ASSERT_TRUE(hlp.fileExists(actualFilePath.c_str()));
+
+  //assert files are equals
+  std::string errorMessage;
+  bool fileEquals = hlp.isFileEquals(actualFilePath.c_str(), expectedFilePath.c_str(), errorMessage);
+  ASSERT_TRUE(fileEquals) << errorMessage.c_str();
 }
