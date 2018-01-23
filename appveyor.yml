@@ -66,40 +66,40 @@ build:
   project: msvc\msbuildreorder.sln
   verbosity: minimal
   
-##---------------------------------#
-##       tests configuration       #
-##---------------------------------#
-#
-## to run your custom scripts instead of automatic tests
-#test_script:
-#- cmd: call c:\projects\msbuildreorder\ci\appveyor\test_script.bat
-#
-##---------------------------------#
-##      artifacts configuration    #
-##---------------------------------#
-#
-#artifacts:
-#- path: msvc\Win32\Release\msbuildreorderTest.x86.release.xml
-#  name: msbuildreorderTest.x86.release.xml
-#- path: nsis\bin\*.zip
-#  name: msbuildreorder win32 portable
-#- path: nsis\bin\*.exe
-#  name: msbuildreorder win32 setup
-#  
-##---------------------------------#
-##     deployment configuration    #
-##---------------------------------#
-#
-#deploy:
-#
-##prepare deplying to github. See prepare_github_deploy.ps1 for more details.
-#- provider: GitHub
-#  tag: $(GITHUB_TAG_NAME)
-#  release: $(GITHUB_RELEASE_NAME)
-#  description: Latest successful AppVeyor CI builds of branch '$(APPVEYOR_REPO_BRANCH)', commit $(APPVEYOR_REPO_COMMIT)
-#  auth_token:
-#    secure: BgyLisMc154qWpkyBdh8OD+D9HMM+YnBkh7H4MEUShKO3aCU+Fn/XVGJ07fTsRmH
-#  artifact: /(.*\.zip|.*\.exe)/
-#  draft: false           #true means release is private (visible to contributors only), false is public (visible to everyone)
-#  prerelease: true       #true for prerelease, false to identify this release as the 'latest release'
-#  force_update: true
+#---------------------------------#
+#       tests configuration       #
+#---------------------------------#
+
+# to run your custom scripts instead of automatic tests
+test_script:
+- cmd: call c:\projects\msbuildreorder\ci\appveyor\test_script.bat
+
+#---------------------------------#
+#      artifacts configuration    #
+#---------------------------------#
+
+artifacts:
+- path: msvc\Win32\Release\msbuildreorderTest.x86.release.xml
+  name: msbuildreorderTest.x86.release.xml
+- path: nsis\bin\*.zip
+  name: msbuildreorder win32 portable
+- path: nsis\bin\*.exe
+  name: msbuildreorder win32 setup
+  
+#---------------------------------#
+#     deployment configuration    #
+#---------------------------------#
+
+deploy:
+
+#prepare deplying to github. See prepare_github_deploy.ps1 for more details.
+- provider: GitHub
+  tag: $(GITHUB_TAG_NAME)
+  release: $(GITHUB_RELEASE_NAME)
+  description: Latest successful AppVeyor CI builds of branch '$(APPVEYOR_REPO_BRANCH)', commit $(APPVEYOR_REPO_COMMIT)
+  auth_token:
+    secure: BgyLisMc154qWpkyBdh8OD+D9HMM+YnBkh7H4MEUShKO3aCU+Fn/XVGJ07fTsRmH
+  artifact: /(.*\.zip|.*\.exe)/
+  draft: false           #true means release is private (visible to contributors only), false is public (visible to everyone)
+  prerelease: true       #true for prerelease, false to identify this release as the 'latest release'
+  force_update: true
