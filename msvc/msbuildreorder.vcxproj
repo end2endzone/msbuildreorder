@@ -83,11 +83,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\argumentparser.cpp" />
     <ClCompile Include="..\src\BuildLogManager.cpp" />
+    <ClCompile Include="..\src\environmentfunc.cpp" />
+    <ClCompile Include="..\src\filesystemfunc.cpp" />
+    <ClCompile Include="..\src\logger.cpp" />
     <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\stringfunc.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\src\argumentparser.h" />
     <ClInclude Include="..\src\BuildLogManager.h" />
+    <ClInclude Include="..\src\environmentfunc.h" />
+    <ClInclude Include="..\src\filesystemfunc.h" />
+    <ClInclude Include="..\src\logger.h" />
+    <ClInclude Include="..\src\stringfunc.h" />
     <ClInclude Include="..\src\targetver.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
