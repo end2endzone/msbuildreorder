@@ -1,9 +1,8 @@
-![msbuildreorder logo](docs/msbuildreorder-splashscreen.png)
+![msbuildreorder logo](docs/MSBuildReorder-splashscreen.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Github Releases](https://img.shields.io/github/release/end2endzone/msbuildreorder.svg)](https://github.com/end2endzone/msbuildreorder/releases)
-UPDATE-->
-[![Build status](https://ci.appveyor.com/api/projects/status/q9k0ebb971o475qi/branch/master?svg=true)](https://ci.appveyor.com/project/end2endzone/msbuildreorder/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/911ry08o97ubv506/branch/master?svg=true)](https://ci.appveyor.com/project/end2endzone/msbuildreorder/branch/master)
 [![Tests status](https://img.shields.io/appveyor/tests/end2endzone/msbuildreorder/master.svg)](https://ci.appveyor.com/project/end2endzone/msbuildreorder/branch/master/tests)
 
 AppVeyor build statistics:
