@@ -32,6 +32,8 @@ image: Visual Studio 2015
 init:
   - git config --global core.autocrlf true
   - git config --get core.autocrlf
+  - git config --global core.eol crlf
+  - git config --get core.eol
   - ps: $env:GIT_HASH=$env:APPVEYOR_REPO_COMMIT.Substring(0, 10)
 
 # fetch repository as zip archive
