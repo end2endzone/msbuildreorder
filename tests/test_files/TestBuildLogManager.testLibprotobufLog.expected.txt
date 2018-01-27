@@ -1,3 +1,5 @@
+
+
 1>------ Build started: Project: libprotobuf, Configuration: Debug_MT_DLL Win32 ------
 1>Compiling...
 1>cl : Command line warning D9035 : option 'Wp64' has been deprecated and will be removed in a future release
