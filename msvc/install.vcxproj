@@ -54,7 +54,7 @@ call %(FullPath)
     <None Include="..\INSTALL.md" />
     <None Include="..\LICENSE" />
     <None Include="..\nsis\main.nsi" />
-    <None Include="..\nsis\Win32.nsh" />
+    <None Include="..\nsis\win32.nsh" />
     <None Include="..\README.md" />
   </ItemGroup>
   <ItemGroup>

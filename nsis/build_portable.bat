@@ -27,4 +27,4 @@ echo %infiles%
 echo.
 call "C:\Program Files\7-Zip\7z.exe" a -bd %outfile% %infiles%
 
-pause
+echo.

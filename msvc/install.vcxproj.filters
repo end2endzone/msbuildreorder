@@ -9,14 +9,14 @@
     <None Include="..\nsis\main.nsi">
       <Filter>Installer Files</Filter>
     </None>
-    <None Include="..\nsis\Win32.nsh">
-      <Filter>Installer Files</Filter>
-    </None>
     <None Include="..\AUTHORS" />
     <None Include="..\CHANGES" />
     <None Include="..\LICENSE" />
     <None Include="..\README.md" />
     <None Include="..\INSTALL.md" />
+    <None Include="..\nsis\win32.nsh">
+      <Filter>Installer Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\nsis\build_portable.bat">

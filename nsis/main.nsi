@@ -139,6 +139,7 @@ Section Uninstall
   Delete "$INSTDIR\CHANGES"
   Delete "$INSTDIR\LICENSE"
   Delete "$INSTDIR\README.md"
+  RMDir /r "$INSTDIR\test_files"
   
   Delete "$SMPROGRAMS\${PRODUCT_NAME}\Uninstall.lnk"
   Delete "$SMPROGRAMS\${PRODUCT_NAME}\${PRODUCT_NAME}.lnk"
