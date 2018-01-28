@@ -26,7 +26,6 @@ It's main features are:
 
 The reordering functionality is already available from Visual Studio IDE (Output window, 'Build Order' option). However, this feature is not available when launching msbuild.exe or devenv.exe from the command line. This is where msbuildreorder becomes useful.
 
-
 # Command Line Usage
 
 ```
