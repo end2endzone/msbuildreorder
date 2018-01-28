@@ -13,3 +13,5 @@
 /msvc/*.opensdf
 /msvc/msbuildreorderTest.x86.debug.xml
 /msvc/msbuildreorderTest.x86.release.xml
+/nsis/bin/*.zip
+/nsis/bin/*.exe
