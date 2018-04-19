@@ -103,16 +103,28 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\BuildLogManager.h" />
+    <ClInclude Include="..\src\environmentfunc.h" />
+    <ClInclude Include="..\src\filesystemfunc.h" />
+    <ClInclude Include="..\src\stringfunc.h" />
     <ClInclude Include="..\tests\application.h" />
     <ClInclude Include="..\tests\gtesthelper.h" />
     <ClInclude Include="..\tests\TestBuildLogManager.h" />
+    <ClInclude Include="..\tests\TestEnvironmentFunc.h" />
+    <ClInclude Include="..\tests\TestFilesystemFunc.h" />
+    <ClInclude Include="..\tests\TestStringFunc.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\BuildLogManager.cpp" />
+    <ClCompile Include="..\src\environmentfunc.cpp" />
+    <ClCompile Include="..\src\filesystemfunc.cpp" />
+    <ClCompile Include="..\src\stringfunc.cpp" />
     <ClCompile Include="..\tests\application.cpp" />
     <ClCompile Include="..\tests\gtesthelper.cpp" />
     <ClCompile Include="..\tests\main.cpp" />
     <ClCompile Include="..\tests\TestBuildLogManager.cpp" />
+    <ClCompile Include="..\tests\TestEnvironmentFunc.cpp" />
+    <ClCompile Include="..\tests\TestFilesystemFunc.cpp" />
+    <ClCompile Include="..\tests\TestStringFunc.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="msbuildreorder.vcxproj">

@@ -44,6 +44,24 @@
     <ClInclude Include="..\src\BuildLogManager.h">
       <Filter>External Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\tests\TestEnvironmentFunc.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\TestFilesystemFunc.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\TestStringFunc.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\environmentfunc.h">
+      <Filter>External Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\filesystemfunc.h">
+      <Filter>External Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\stringfunc.h">
+      <Filter>External Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\tests\application.cpp">
@@ -59,6 +77,24 @@
       <Filter>Tests</Filter>
     </ClCompile>
     <ClCompile Include="..\src\BuildLogManager.cpp">
+      <Filter>External Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\TestEnvironmentFunc.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\TestFilesystemFunc.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\TestStringFunc.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\environmentfunc.cpp">
+      <Filter>External Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\filesystemfunc.cpp">
+      <Filter>External Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\stringfunc.cpp">
       <Filter>External Files</Filter>
     </ClCompile>
   </ItemGroup>
