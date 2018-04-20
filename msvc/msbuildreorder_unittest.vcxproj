@@ -105,6 +105,7 @@
     <ClInclude Include="..\src\BuildLogManager.h" />
     <ClInclude Include="..\src\environmentfunc.h" />
     <ClInclude Include="..\src\filesystemfunc.h" />
+    <ClInclude Include="..\src\nativefunc.h" />
     <ClInclude Include="..\src\stringfunc.h" />
     <ClInclude Include="..\tests\application.h" />
     <ClInclude Include="..\tests\gtesthelper.h" />
@@ -117,6 +118,7 @@
     <ClCompile Include="..\src\BuildLogManager.cpp" />
     <ClCompile Include="..\src\environmentfunc.cpp" />
     <ClCompile Include="..\src\filesystemfunc.cpp" />
+    <ClCompile Include="..\src\nativefunc.cpp" />
     <ClCompile Include="..\src\stringfunc.cpp" />
     <ClCompile Include="..\tests\application.cpp" />
     <ClCompile Include="..\tests\gtesthelper.cpp" />

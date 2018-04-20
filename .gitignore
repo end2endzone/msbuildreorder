@@ -15,3 +15,5 @@
 /msvc/msbuildreorderTest.x86.release.xml
 /nsis/bin/*.zip
 /nsis/bin/*.exe
+/msvc/TestFilesystemFunc.testFileExists
+/msvc/TestFilesystemFunc.testGetFileSize
