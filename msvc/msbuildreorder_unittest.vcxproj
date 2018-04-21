@@ -112,6 +112,7 @@
     <ClInclude Include="..\tests\TestBuildLogManager.h" />
     <ClInclude Include="..\tests\TestEnvironmentFunc.h" />
     <ClInclude Include="..\tests\TestFilesystemFunc.h" />
+    <ClInclude Include="..\tests\TestNativeFunc.h" />
     <ClInclude Include="..\tests\TestStringFunc.h" />
   </ItemGroup>
   <ItemGroup>
@@ -126,6 +127,7 @@
     <ClCompile Include="..\tests\TestBuildLogManager.cpp" />
     <ClCompile Include="..\tests\TestEnvironmentFunc.cpp" />
     <ClCompile Include="..\tests\TestFilesystemFunc.cpp" />
+    <ClCompile Include="..\tests\TestNativeFunc.cpp" />
     <ClCompile Include="..\tests\TestStringFunc.cpp" />
   </ItemGroup>
   <ItemGroup>

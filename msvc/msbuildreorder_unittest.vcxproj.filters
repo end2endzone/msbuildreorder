@@ -65,6 +65,9 @@
     <ClInclude Include="..\src\nativefunc.h">
       <Filter>External Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\tests\TestNativeFunc.h">
+      <Filter>External Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\tests\application.cpp">
@@ -101,6 +104,9 @@
       <Filter>External Files</Filter>
     </ClCompile>
     <ClCompile Include="..\src\nativefunc.cpp">
+      <Filter>External Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\TestNativeFunc.cpp">
       <Filter>External Files</Filter>
     </ClCompile>
   </ItemGroup>

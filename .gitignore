@@ -17,3 +17,5 @@
 /nsis/bin/*.exe
 /msvc/TestFilesystemFunc.testFileExists
 /msvc/TestFilesystemFunc.testGetFileSize
+/msvc/TestFilesystemFunc.testGetFileModifiedDate.1.txt
+/msvc/TestFilesystemFunc.testGetFileModifiedDate.2.txt
